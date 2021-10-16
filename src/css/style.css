@@ -1,18 +1,15 @@
 body {
-    display: flex;
-    flex-wrap: wrap;
-    width: 420px;
+    width: 1000px;
 }
 
-div {
-    border: 2px solid black;
+td {
+    border: 2px solid grey;
+    background-color: purple;
+    color: gold;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
     width: 100px;
-    height: 100px;
-}
-
-img {
-    width: inherit;
-    height: inherit;
-    background-image: url('../img/goblin.png');
-    background-size: contain;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
 }
